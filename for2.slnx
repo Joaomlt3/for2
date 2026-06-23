@@ -1,0 +1,12 @@
+<Solution>
+  <Project Path="Ex01/Ex01.csproj" />
+  <Project Path="Ex02/Ex02.csproj" />
+  <Project Path="Ex03/Ex03.csproj" />
+  <Project Path="Ex04/Ex04.csproj" />
+  <Project Path="Ex05/Ex05.csproj" />
+  <Project Path="Ex06/Ex06.csproj" />
+  <Project Path="Ex07/Ex07.csproj" />
+  <Project Path="Ex08/Ex08.csproj" />
+  <Project Path="Ex09/Ex09.csproj" Id="d23a2512-44c3-471e-b0f9-9d74a6c2bee9" />
+  <Project Path="Ex10/Ex10.csproj" Id="f27610c2-d5fd-4ce3-a75b-ee8afec582bf" />
+</Solution>
