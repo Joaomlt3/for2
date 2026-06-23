@@ -2,13 +2,11 @@
 double totalDoBolso = 0.0;
 double gasto;
 
-
 for (int i = 1; i <= 5; i++)
 {
     Console.Write("Digite o gasto com refeições do consultor " + i + ": R$ ");
-    gasto = Convert.ToDouble(Console.ReadLine());
+    gasto = double.Parse(Console.ReadLine());
 
-   
     if (gasto <= 150.0)
     {
         totalReembolsado += gasto;
@@ -20,7 +18,5 @@ for (int i = 1; i <= 5; i++)
     }
 }
 
-
-Console.WriteLine("\n===== RELATÓRIO DE VIAGEM =====");
-Console.WriteLine("Total reembolsado pela empresa: R$ " + totalReembolsado.ToString("F2"));
-Console.WriteLine("Total pago do próprio bolso: R$ " + totalDoBolso.ToString("F2"));
+Console.WriteLine("Total reembolsado pela empresa: R$ " + totalReembolsado);
+Console.WriteLine("Total pago do próprio bolso: R$ " + totalDoBolso);

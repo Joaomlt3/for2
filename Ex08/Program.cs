@@ -4,7 +4,7 @@ int quantidade;
 
 for (int i = 1; i <= 8; i++)
 {
-    Console.WriteLine($"\nProduto {i}:");
+    Console.WriteLine($"Produto {i}:");
 
     Console.Write("Nome do produto: ");
     nomeProduto = Console.ReadLine();
@@ -15,7 +15,7 @@ for (int i = 1; i <= 8; i++)
     
     if (quantidade < 5)
     {
-        Console.WriteLine($"ATENÇÃO: O produto {nomeProduto} está com estoque crítico!");
+        Console.WriteLine($"O produto {nomeProduto} está com estoque crítico!");
     }
 }
 
